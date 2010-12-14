@@ -93,6 +93,9 @@
 ;;;; Hippie expand
 (require 'my-hippie)
 
+;;;; Enable doxymacs
+(require 'my-doxy)
+
 ;;;; Default to custom C coding style
 (require 'customc)
 (add-hook 'c-mode-common-hook
