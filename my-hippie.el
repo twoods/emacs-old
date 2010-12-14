@@ -1,7 +1,7 @@
 ;;;; Hippie expand customizations
 (provide 'my-hippie)
 
-(require 'hippie-expand)
+(require 'hippie-exp)
 
 (defun my-try-expand-all-abbrevs-ci (old)
   "Try to expand abbrevs without case matching."
