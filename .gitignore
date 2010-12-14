@@ -1,0 +1,5 @@
+*.elc
+*~
+session.*
+tramp
+auto-save-list/
