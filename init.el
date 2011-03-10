@@ -96,6 +96,10 @@
 ;;;; Enable doxymacs
 (require 'my-doxy)
 
+;;;; Customize buffer menu/list
+(require 'my-buffmenu)
+(global-set-key (kbd "C-x C-b") 'my-buffer-menu)
+
 ;;;; Default to custom C coding style
 (require 'customc)
 (add-hook 'c-mode-common-hook
