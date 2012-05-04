@@ -8,6 +8,7 @@
 (add-to-list 'default-frame-alist '(cursor-color . "#ff0000"))
 (add-to-list 'default-frame-alist '(foreground-color . "lightgrey"))
 (add-to-list 'default-frame-alist '(background-color . "black"))
+;(add-to-list 'default-frame-alist '(font . "DejaVu Sans Mono-12"))
 
 ;;;; Set title
 (setq frame-title-format '("" "%+ %b @ Emacs " emacs-version))
