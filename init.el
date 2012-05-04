@@ -113,6 +113,10 @@
 (global-set-key (kbd "C-x C-b") 'my-buffer-menu)
 (global-set-key (kbd "C-<tab>") 'list-buffers)
 
+;;;; Uniquify - set to FileName|path/to style
+(require 'uniquify)
+(setq-default uniquify-buffer-name-style 'post-forward)
+
 ;;;; Default to custom C coding style
 (require 'customc)
 (add-hook 'c-mode-common-hook
