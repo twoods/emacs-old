@@ -9,6 +9,9 @@
 (add-to-list 'default-frame-alist '(foreground-color . "lightgrey"))
 (add-to-list 'default-frame-alist '(background-color . "black"))
 
+;;;; Set title
+(setq frame-title-format '("" "%+ %b @ Emacs " emacs-version))
+
 ;;;; Set focus follows mouse
 (setq focus-follows-mouse t)
 
