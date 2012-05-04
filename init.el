@@ -30,6 +30,10 @@
 ;;;; Tag customization and bindings
 (require 'my-tags)
 
+;;;; Show file name
+(require 'file-name)
+(global-set-key (kbd "C-c f") 'show-file-name)
+
 ;;;; Global key bindings
 ;; Toggle speedbar focus
 (global-set-key [(control ?')] 'speedbar-get-focus)
