@@ -117,6 +117,9 @@
 (require 'uniquify)
 (setq-default uniquify-buffer-name-style 'post-forward)
 
+;;;; Dired details toggling
+(require 'dired-details+)
+
 ;;;; Default to custom C coding style
 (require 'customc)
 (add-hook 'c-mode-common-hook
