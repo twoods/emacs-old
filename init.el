@@ -10,6 +10,10 @@
 (add-to-list 'default-frame-alist '(background-color . "black"))
 ;(add-to-list 'default-frame-alist '(font . "DejaVu Sans Mono-12"))
 
+;;;; Color scheme is dark, set background mode for faces
+;;;; (Hack for some modules that check this variable directly)
+(setq-default frame-background-mode 'dark)
+
 ;;;; Set title
 (setq frame-title-format '("" "%+ %b @ Emacs " emacs-version))
 
