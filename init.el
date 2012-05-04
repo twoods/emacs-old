@@ -111,6 +111,7 @@
 ;;;; Customize buffer menu/list
 (require 'my-buffmenu)
 (global-set-key (kbd "C-x C-b") 'my-buffer-menu)
+(global-set-key (kbd "C-<tab>") 'list-buffers)
 
 ;;;; Default to custom C coding style
 (require 'customc)
